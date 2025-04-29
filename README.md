@@ -39,20 +39,19 @@ npm run build
 
 # JS Integration
 
+        <!-- Include the Sense library -->
         <script src="./sense.js"></script>
 
-        ..............
-        .......
+        // 🛡️ App Security
 
-        // App Security
+        Sense.getSecurity()
+        .then((data) => {
+            const { adBlocker, browserTampering, bot, incognito, devTools } = data;
 
-        Sense.getSecurity().then(data => {
-            const { adBlocker, browserTampering, bot, incognito, devTools} = data;
-
-            //  Code Logic here
-            
-        }).catch(error => {
-            console.log(error.message); //Error Block
+            // ✅ Your security-related logic here
+        })
+        .catch((error) => {
+            console.error(error.message); // ❌ Handle error
         });
 ``` 
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
