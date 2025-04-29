@@ -1,5 +1,4 @@
 <h1 align="center">Sense App Protect JS </h1>
-<!-- <h1 align="center">Understanding User Intent : Sense</h1> -->
 
 <p align="center" width="100%">
 <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> 
