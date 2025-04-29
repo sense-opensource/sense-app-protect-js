@@ -28,14 +28,14 @@
 <h3 align="center">Getting started with Sense (App Security)</h3>
 
 #### Bash
-```bash
-# Run the playground locally
-npm run playground
+    ```bash
+    # Run the playground locally
+    npm run playground
 
-# Build the project and generate the dist folder
-npm run build
+    # Build the project and generate the dist folder
+    npm run build
 
-```
+    ```
 
 #### JS Integration
 ```js
