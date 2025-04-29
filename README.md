@@ -1,14 +1,17 @@
-# sense-app-protect-js
-<h1 align="center">Understanding User Intent : Sense</h1>
+<h1 align="center">Sense App Protect JS </h1>
 
 <p align="center" width="100%">
-<img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> <img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> <img width="10%" src="https://custom-icon-badges.demolab.com/github/issues-raw/DenverCoder1/custom-icon-badges?logo=issue"> <img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
+<img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> 
+<img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> 
+<img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
 </p>
 
 <h2 align="center">Welcome to Sense’s open source repository</h2>
 
 <p align="center" width="100%">  
-<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
+<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> 
+<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> 
+<img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
 <p style="text-align:center;"> 
@@ -20,13 +23,36 @@
 
 <p align="center"> Sense’s real time demo : https://pro.getsense.co/
 
-*** Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!*** 
+**Try visiting the same page in an incognito mode or switch on the VPN and notice how the visitor identifier remains the same in spite of all these changes!**
 
-<h3 align="center">Getting started with Sense </h3>
+<h3 align="center">Getting started with Sense (App Security)</h3>
 
-```
-(code snippet)  
+#### Bash
+    ```bash
+    # Run the playground locally
+    npm run playground
+
+    # Build the project and generate the dist folder
+    npm run build
+
+    ```
+
+#### JS Integration
+```js
+    // Include the Sense library 
+    <script src="./sense.js"></script>
+
+    // 🛡️ App Security
+
+    Sense.getSecurity()
+    .then((data) => {
+        const { adBlocker, browserTampering, bot, incognito, devTools } = data;
+
+        // ✅ Your security-related logic here
+    })
+    .catch((error) => {
+        console.error(error.message); // ❌ Handle error
+    });
 ``` 
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
 
@@ -52,16 +78,19 @@ Sense OS is available under the <a href="https://github.com/sense-opensource/sen
 
 #### Contributors code of conduct : 
 
-Thank you for your interest in contributing to this project! We welcome all contributions and are excited to have you join our community. Please read these <a href="https://github.com/sense-opensource/sense-app-protect-js/blob/main/code_of_conduct.md"> code of conduct </a> to ensure a smooth collaboration.
+Thank you for your interest in contributing to this project! We welcome all contributions and are excited to have you join our community. Please read these <a href="https://github.com/sense-opensource/sense-app-protect-js/blob/main/code_of_conduct.md"> Code of conduct </a> to ensure a smooth collaboration.
 
 #### Where you can get support :     
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co 
 
 Public Support:
+
 For questions, bug reports, or feature requests, please use the Issues and Discussions sections on our repository. This helps the entire community benefit from shared knowledge and solutions.
 
 Community Chat:
+
 Join our Discord server (link) to connect with other developers, ask questions in real-time, and share your feedback on Sense.
 
 Interested in contributing to Sense?
+
 Please review our <a href="https://github.com/sense-opensource/sense-app-protect-js/blob/main/CONTRIBUTING.md"> Contribution Guidelines </a> to learn how to get started, submit pull requests, or run the project locally. We encourage you to read these guidelines carefully before making any contributions. Your input helps us make Sense better for everyone!
