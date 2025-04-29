@@ -1,8 +1,9 @@
 {
-	"name": "sense-device-identity-js",
+	"name": "sense-app-protect-js",
 	"version": "1.0.0",
 	"description": "Detect critical signals that might harm your app",
 	"main": "src/index.ts",
+	"type": "module",
 	"scripts": {
 		"build": "rm -rf dist && rollup -c --environment BUILD:dist",
 		"test": "jest",
@@ -13,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourusername/sense.git"
+		"url": "https://github.com/sense-opensource/sense-app-protect-js"
 	},
 	"keywords": [
 		"application protection",
