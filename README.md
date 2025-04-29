@@ -27,32 +27,32 @@
 
 <h3 align="center">Getting started with Sense (App Security)</h3>
 
-
-```
+#### Bash
+```bash
 # Run the playground locally
 npm run playground
-
 
 # Build the project and generate the dist folder
 npm run build
 
+```
 
-# JS Integration
+#### JS Integration
+```js
+    // Include the Sense library 
+    <script src="./sense.js"></script>
 
-        <!-- Include the Sense library -->
-        <script src="./sense.js"></script>
+    // 🛡️ App Security
 
-        // 🛡️ App Security
+    Sense.getSecurity()
+    .then((data) => {
+        const { adBlocker, browserTampering, bot, incognito, devTools } = data;
 
-        Sense.getSecurity()
-        .then((data) => {
-            const { adBlocker, browserTampering, bot, incognito, devTools } = data;
-
-            // ✅ Your security-related logic here
-        })
-        .catch((error) => {
-            console.error(error.message); // ❌ Handle error
-        });
+        // ✅ Your security-related logic here
+    })
+    .catch((error) => {
+        console.error(error.message); // ❌ Handle error
+    });
 ``` 
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
 
