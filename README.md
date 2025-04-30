@@ -45,7 +45,7 @@
 #### JS Integration
 ```js
     // Include the Sense library 
-    <script src="./sense.js"></script>
+    <script src="https://cdn.getsense.co/js/v1/senseos/sense-app-protect-js"></script>
 
     // 🛡️ App Security
 
