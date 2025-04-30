@@ -30,12 +30,16 @@
 
 #### Bash
 ```bash
+    # Install all dependencies (including dev dependencies)
+    npm install
+    # or
+    npm i
+
     # Run the playground locally
     npm run playground
 
     # Build the project and generate the dist folder
     npm run build
-
 ```
 
 #### JS Integration

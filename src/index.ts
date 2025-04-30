@@ -8,7 +8,7 @@ import { detectIncognito } from './modules/incognito';
  * Function to get all Sense - Web Application Security.
  * @returns An object containing the details like Ad-Blocker Detection, Browser Tampering, Bot Detection, Incognito Detection, Developer Tools Detection.
  */
-export const getSecurity = async () => {
+export const initSDK = async () => {
 	try {
 		return {
 			adBlocker: await isAdBlockerEnabled(),

@@ -49,7 +49,7 @@
                     </div>
                     <div class="data-wrapper">
                         <div class="details-display-container" id="result">
-                            
+                            Results </br></br>
                         </div>
                     </div>  
                 </div>
@@ -67,12 +67,12 @@
                 </div>
             </div>
         </footer>
-        <script src="bundle.js"></script>
+        <script src="sense.js"></script>
         <script>
             const resultDiv = document.getElementById('result');
             const year = document.getElementById('year-current');
             year.innerText = new Date().getFullYear();
-            const sense = Sense.getSecurity().then(data => {
+            const sense = SenseOS.initSDK().then(data => {
                 const senseResult = document.createElement('pre');
                 senseResult.innerHTML = JSON.stringify(data, null, 2);
                 resultDiv.appendChild(senseResult);
