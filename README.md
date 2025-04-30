@@ -52,7 +52,7 @@
 
     // 🛡️ App Security
 
-    Sense.getSecurity()
+    Sense.initSDK()
     .then((data) => {
         const { adBlocker, browserTampering, bot, incognito, devTools } = data;
 
