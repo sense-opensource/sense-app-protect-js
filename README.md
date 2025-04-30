@@ -33,18 +33,22 @@
 
 #### Bash
 ```bash
+    # Install all dependencies (including dev dependencies)
+    npm install
+    # or
+    npm i
+
     # Run the playground locally
     npm run playground
 
     # Build the project and generate the dist folder
     npm run build
-
 ```
 
 #### JS Integration
 ```js
     // Include the Sense library 
-    <script src="./sense.js"></script>
+    <script src="https://cdn.getsense.co/js/v1/senseos/sense-app-protect-js"></script>
 
     // 🛡️ App Security
 
