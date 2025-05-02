@@ -18,6 +18,14 @@
 <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
+### 🚨 Detection Metrics
+
+![AdBlocker](https://img.shields.io/badge/AdBlocker-blue)
+![Browser Tampering](https://img.shields.io/badge/Browser_Tampering-green)
+![Bot](https://img.shields.io/badge/Bot-orange)
+![Incognito](https://img.shields.io/badge/Incognito-yellow)
+![DevTools](https://img.shields.io/badge/DevTools-red)
+
 <p> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>
 
 <h3>Getting started with Sense (App Security)</h3>
