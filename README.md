@@ -1,5 +1,4 @@
 <h1>Sense App Protect JS </h1>
-
 <p width="100%">
     <a href="https://github.com/sense-opensource/sense-app-protect-js/blob/main/LICENSE"> 
         <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> 
@@ -25,6 +24,7 @@
 ![Bot](https://img.shields.io/badge/Bot-orange)
 ![Incognito](https://img.shields.io/badge/Incognito-yellow)
 ![DevTools](https://img.shields.io/badge/DevTools-red)
+![GitHub all releases](https://img.shields.io/github/downloads/sense-opensource/sense-app-protect-js/total)
 
 <p> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>
 
